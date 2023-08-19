@@ -52,9 +52,10 @@ class Solution
         {
             al.add(s.pop());
         }
-        for(int i=0;i<al.size();i++)
+        int i=0;
+        while(i<al.size())
         {
-            s.push(al.get(i));
+            s.push(al.get(i++));
         }
     }
 }
